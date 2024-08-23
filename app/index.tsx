@@ -5,6 +5,8 @@ import ImageComponent from '@/components/ImageComponent'
 import Profile from '@/components/Profile'
 import DynamicContent from '@/components/DynamicContent'
 import CarCard from '@/components/CarCard'
+import InternalStyle from '@/components/InternalStyle'
+import ExternalStyle from '@/components/ExternalStyle'
 
 const Index = () => {
   return (
@@ -13,7 +15,9 @@ const Index = () => {
      <ImageComponent /> */}
      {/* <Profile/> */}
      {/* <DynamicContent/> */}
-     <CarCard/>
+     {/* <CarCard/> */}
+     {/* <InternalStyle /> */}
+     <ExternalStyle />
     </View>
   )
 }
