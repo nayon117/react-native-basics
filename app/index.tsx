@@ -14,6 +14,7 @@ import Product from '@/components/Product'
 import ToggleButton from '@/components/ToggleButton'
 import WeatherApp from '@/components/WeatherApp'
 import ColorPicker from '@/components/ColorPicker'
+import Todo from '@/components/Todo'
 
 const Index = () => {
   return (
@@ -31,7 +32,8 @@ const Index = () => {
      {/* <Product /> */}
      {/* <ToggleButton /> */}
      {/* <WeatherApp /> */}
-     <ColorPicker />
+     {/* <ColorPicker /> */}
+     <Todo />
     </View>
   )
 }
