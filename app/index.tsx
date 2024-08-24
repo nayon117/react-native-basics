@@ -11,6 +11,7 @@ import FlatListTest from '@/components/FlatListTest'
 import ArrayOfObjects from '@/components/ArrayOfObjects'
 import FlatChallange from '@/components/FlatChallange'
 import Product from '@/components/Product'
+import ToggleButton from '@/components/ToggleButton'
 
 const Index = () => {
   return (
@@ -25,7 +26,8 @@ const Index = () => {
      {/* <FlatListTest/> */}
      {/* <ArrayOfObjects/> */}
      {/* <FlatChallange/> */}
-     <Product />
+     {/* <Product /> */}
+     <ToggleButton />
     </View>
   )
 }
