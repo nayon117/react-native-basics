@@ -8,6 +8,8 @@ import CarCard from '@/components/CarCard'
 import InternalStyle from '@/components/InternalStyle'
 import ExternalStyle from '@/components/ExternalStyle'
 import FlatListTest from '@/components/FlatListTest'
+import ArrayOfObjects from '@/components/ArrayOfObjects'
+import FlatChallange from '@/components/FlatChallange'
 
 const Index = () => {
   return (
@@ -19,7 +21,9 @@ const Index = () => {
      {/* <CarCard/> */}
      {/* <InternalStyle /> */}
      {/* <ExternalStyle /> */}
-     <FlatListTest/>
+     {/* <FlatListTest/> */}
+     {/* <ArrayOfObjects/> */}
+     <FlatChallange/>
     </View>
   )
 }
