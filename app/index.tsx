@@ -7,6 +7,7 @@ import DynamicContent from '@/components/DynamicContent'
 import CarCard from '@/components/CarCard'
 import InternalStyle from '@/components/InternalStyle'
 import ExternalStyle from '@/components/ExternalStyle'
+import FlatListTest from '@/components/FlatListTest'
 
 const Index = () => {
   return (
@@ -17,7 +18,8 @@ const Index = () => {
      {/* <DynamicContent/> */}
      {/* <CarCard/> */}
      {/* <InternalStyle /> */}
-     <ExternalStyle />
+     {/* <ExternalStyle /> */}
+     <FlatListTest/>
     </View>
   )
 }
