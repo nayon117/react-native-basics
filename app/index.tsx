@@ -12,6 +12,7 @@ import ArrayOfObjects from '@/components/ArrayOfObjects'
 import FlatChallange from '@/components/FlatChallange'
 import Product from '@/components/Product'
 import ToggleButton from '@/components/ToggleButton'
+import WeatherApp from '@/components/WeatherApp'
 
 const Index = () => {
   return (
@@ -27,7 +28,8 @@ const Index = () => {
      {/* <ArrayOfObjects/> */}
      {/* <FlatChallange/> */}
      {/* <Product /> */}
-     <ToggleButton />
+     {/* <ToggleButton /> */}
+     <WeatherApp />
     </View>
   )
 }
