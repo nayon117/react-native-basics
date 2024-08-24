@@ -15,6 +15,7 @@ import ToggleButton from '@/components/ToggleButton'
 import WeatherApp from '@/components/WeatherApp'
 import ColorPicker from '@/components/ColorPicker'
 import Todo from '@/components/Todo'
+import DataFetching from '@/components/DataFetching'
 
 const Index = () => {
   return (
@@ -33,7 +34,8 @@ const Index = () => {
      {/* <ToggleButton /> */}
      {/* <WeatherApp /> */}
      {/* <ColorPicker /> */}
-     <Todo />
+     {/* <Todo /> */}
+     <DataFetching />
     </View>
   )
 }
