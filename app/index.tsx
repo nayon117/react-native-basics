@@ -13,6 +13,7 @@ import FlatChallange from '@/components/FlatChallange'
 import Product from '@/components/Product'
 import ToggleButton from '@/components/ToggleButton'
 import WeatherApp from '@/components/WeatherApp'
+import ColorPicker from '@/components/ColorPicker'
 
 const Index = () => {
   return (
@@ -29,7 +30,8 @@ const Index = () => {
      {/* <FlatChallange/> */}
      {/* <Product /> */}
      {/* <ToggleButton /> */}
-     <WeatherApp />
+     {/* <WeatherApp /> */}
+     <ColorPicker />
     </View>
   )
 }
