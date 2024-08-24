@@ -10,6 +10,7 @@ import ExternalStyle from '@/components/ExternalStyle'
 import FlatListTest from '@/components/FlatListTest'
 import ArrayOfObjects from '@/components/ArrayOfObjects'
 import FlatChallange from '@/components/FlatChallange'
+import Product from '@/components/Product'
 
 const Index = () => {
   return (
@@ -23,7 +24,8 @@ const Index = () => {
      {/* <ExternalStyle /> */}
      {/* <FlatListTest/> */}
      {/* <ArrayOfObjects/> */}
-     <FlatChallange/>
+     {/* <FlatChallange/> */}
+     <Product />
     </View>
   )
 }

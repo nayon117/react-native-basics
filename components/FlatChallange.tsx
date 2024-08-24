@@ -311,7 +311,7 @@ const FlatChallange = () => {
       data={products}
       renderItem={({item})=>{
         return (
-            <View className='my-12'>
+            <View className='my-12 '>
                 <View>
                     <Image 
                     source={{uri:item.image}}
@@ -322,7 +322,7 @@ const FlatChallange = () => {
                 <View className='flex items-center justify-center my-6'>
                     <Text className='text-xl font-semibold'>Name: {item.name}</Text>
                     <Text className='text-lg'>Rating: {item.rating}</Text>
-                    <Text className='text-lg'>Price: {item.price}</Text>
+                    <Text className='text-lg'>Price: ${item.price}</Text>
                 </View>
             </View>
         )
