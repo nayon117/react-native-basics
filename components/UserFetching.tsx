@@ -16,7 +16,6 @@ const UserFetching = () => {
         }
         fetchUser()
     },[])
-    console.log(users)
   return (
     <View>
       <Text>

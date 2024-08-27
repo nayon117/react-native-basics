@@ -17,6 +17,7 @@ import ColorPicker from '@/components/ColorPicker'
 import Todo from '@/components/Todo'
 import DataFetching from '@/components/DataFetching'
 import UserFetching from '@/components/UserFetching'
+import Count from '@/components/useReducer/Count'
 
 const Index = () => {
   return (
@@ -37,7 +38,8 @@ const Index = () => {
      {/* <ColorPicker /> */}
      {/* <Todo /> */}
      {/* <DataFetching /> */}
-     <UserFetching />
+     {/* <UserFetching /> */}
+     <Count />
     </View>
   )
 }
